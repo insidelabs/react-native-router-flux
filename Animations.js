@@ -3,10 +3,10 @@ import ReactNative from 'react-native';
 
 const {
     PixelRatio,
-    Navigator,
     Dimensions,
 } = ReactNative;
 
+import { Navigator } from 'react-native-deprecated-custom-components';
 import buildStyleInterpolator from 'react-native/Libraries/Utilities/buildStyleInterpolator';
 
 var NoTransition = {

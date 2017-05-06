@@ -10,11 +10,13 @@ import Animations from './Animations';
 
 const {
     TouchableOpacity,
-    Navigator,
     StyleSheet,
     View,
     Text,
 } = ReactNative;
+
+import { Navigator } from 'react-native-deprecated-custom-components';
+
 
 import Router from './Router';
 import Actions from './Actions';
